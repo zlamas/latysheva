@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Интернет-магазин</title>
+<link rel="stylesheet" href="../../css/main.css">
+<link rel="stylesheet" href="../../css/fancybox.css">
+
+<header class="header">
+  <section class="header__section">
+    <div class="header__left mobile-hidden">
+      <address class="header__contacts">
+        <a class="link icon-link icon-link_phone" href="tel:+74952222222">+7 (495) 222-22-22</a>
+        <span class="desktop-only">
+          Москва, ул. Павелецкая, 55<br>
+          Пн - Пт с 10:00 до 20:00
+        </span>
+      </address>
+    </div>
+    <div class="header__center">
+      <a href="../../">
+        <h1 class="site-title">Latysheva Workshop</h1>
+      </a>
+      <span class="desktop-only">Интернет-магазин авторских подарков из серебра с эмалью от производителя</span>
+    </div>
+    <div class="header__right">
+      <a href="../../cart.html" data-cart-count="0" class="link icon-link icon-link_cart">
+        <span class="icon-link__text">Корзина</span>
+      </a>
+      <a href="../../profile.html" class="link icon-link icon-link_login">
+        <span class="icon-link__text">Войти</span>
+      </a>
+      <label for="top-nav-toggle" class="icon-button icon-link icon-link_menu desktop-hidden"></label>
+    </div>
+  </section>
+</header>
+<input type="checkbox" class="top-nav-toggle" id="top-nav-toggle">
+<nav class="top-nav">
+  <div class="top-nav__header desktop-hidden">
+    <a href="../../">
+      <h1 class="site-title">Latysheva Workshop</h1>
+    </a>
+    <label for="top-nav-toggle" class="icon-button icon-link icon-link_close"></label>
+  </div>
+  <ul class="top-links">
+    <li><a href="../../catalog" class="link">Каталог</a></li>
+    <li><a href="../../articles" class="link">Новости и выставки</a></li>
+    <li><a href="../../gallery" class="link">Фотогалерея</a></li>
+    <li><a href="#" class="link">Доставка и оплата</a></li>
+    <li><a href="#" class="link">Контакты</a></li>
+    <li>
+    	<form action="../../search.html" class="search field">
+        <input type="text" name="q" placeholder="Поиск" class="input">
+        <button class="icon-button icon-button_search"></button>
+      </form>
+    </li>
+  </ul>
+</nav>
+<nav class="breadcrumb">
+  <ul class="breadcrumb__list">
+    <li class="breadcrumb__item">
+      <a href="../../" class="link">Главная</a>
+    </li>
+    <li class="breadcrumb__item">
+      <a href="../" class="link">Каталог</a>
+    </li>
+    <li class="breadcrumb__item">
+      <a href="./" class="link">Икорницы</a>
+    </li>
+    <li class="breadcrumb__item">
+      Икорница
+    </li>
+  </ul>
+</nav>
+<main class="main">
+  <section class="section section_product">
+    <div class="product__gallery">
+      <img data-fancybox="product" src="../../images/ikornica.jpg" alt="" class="product__image">
+    </div>
+    <div class="product__content">
+      <h2 class="product__title">Икорница</h2>
+      <div class="product__article">
+        Арт. 687864784 <br>
+        Производитель: Елизавета Латышева
+      </div>
+      <div class="price product__price">220 000</div>
+      <div class="button-row">
+        <button class="button product__add-cart">В корзину</button>
+        <button class="button button_outline product__buy">Купить в 1 клик</button>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <h2 class="section__title">Описание товара</h2>
+    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Vivamus cursus at mus dui tempor sed curae dis. Luctus nisl ridiculus turpis nascetur nam commodo. Leo sed iaculis purus sit cursus hac volutpat. Aliquet nec nisl hendrerit ex augue conubia. Rutrum ullamcorper blandit a purus nibh maecenas. Felis massa fermentum pellentesque; eget ornare non aliquam habitant.</p>
+    <h2 class="section__title">Характеристики</h2>
+    <ul class="product__details">
+      <li class="product__detail">
+        <b>Материал:</b>
+        <span></span>
+      </li>
+      <li class="product__detail">
+        <b>Вес:</b>
+        <span></span>
+      </li>
+      <li class="product__detail">
+        <b>Высота:</b>
+        <span></span>
+      </li>
+      <li class="product__detail">
+        <b>Ширина:</b>
+        <span></span>
+      </li>
+      <li class="product__detail">
+        <b>Глубина:</b>
+        <span></span>
+      </li>
+    </ul>
+  </section>
+</main>
+<footer class="footer">
+  <div>&copy; 2024 Latysheva Workshop</div>
+</footer>
+
+<script src="../../js/fancybox.umd.js"></script>
+<script src="../../js/main.js"></script>
